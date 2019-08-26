@@ -57,6 +57,7 @@ To train the model on MNIST dataset for a given anomaly class, run the following
 python train.py \
     --dataset mnist                         \
     --niter <number-of-epochs>              \
+    --nc 1
     --abnormal_class <0,1,2,3,4,5,6,7,8,9>  \
     --display                               # optional if you want to visualize     
 ```
